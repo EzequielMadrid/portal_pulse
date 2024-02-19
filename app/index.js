@@ -76,8 +76,8 @@ const animate = () => {
   portalClone1.position.y = scaleZ * 1.25;
   portalClone2.position.y = -scaleZ * 1.25;
 
-  timeVertical += 30; // 30 milliseconds per frame vertically
-  timeHorizontal += 30; // 30 milliseconds per frame horizontally
+  timeVertical += 60; // 60 milliseconds per frame vertically
+  timeHorizontal += 60; // 60 milliseconds per frame horizontally
 
   renderer.render(scene, camera);
 };
