@@ -81,7 +81,6 @@ const animate = () => {
 
   renderer.render(scene, camera);
 };
-
 animate();
 
 /*** responsive(mobiles,tables,etc) ***/
